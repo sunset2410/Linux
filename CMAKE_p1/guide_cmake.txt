@@ -1,0 +1,4 @@
+sudo apt-get install cmake
+cmake --version
+cmake .    //tao make file
+make     //build

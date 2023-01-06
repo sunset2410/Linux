@@ -28,7 +28,7 @@ int readFile(char* arr){
 }
 
 
-int main()
+int main1()
 {
     char arr[100] = {'\0',};
     readFile(arr);

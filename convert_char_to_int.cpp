@@ -18,7 +18,6 @@ int main()
     }
 
     std::string a  = content;
-
-
+    
     return 0;
 }
