@@ -1,0 +1,4 @@
+cmake --version
+cmake .   // tao make file; CMake sẽ xác định cấu hình môi trường được cài đặt trên máy và tạo một file Makefile cho project này
+make      // build tu make file
+./hello    // chay file thuc thi
