@@ -8,5 +8,5 @@ include_directories(include)
 
 file(GLOB SOURCES "src/*.cpp")
 
-add_executable(testStudent ${SOURCES})
-
+add_executable(main ${SOURCES})
+target_link_libraries(main PRIVATE pthread)
