@@ -1,4 +1,4 @@
 sudo apt-get install cmake
 cmake --version
-cmake .    //tao make file
+cmake .    //tao make file . la chi file CMakeLists.txt nam ngay tai vi tri 
 make     //build
