@@ -1,0 +1,38 @@
+g++ -g -o main main.cpp
+
+
+#build:
+
+gcc main.c -o main
+
+gcc -Wall -g main.c -o main 
+
+
+#run gdb:
+gdb or gdb main.x
+
+#load
+
+(gdb) file main.x
+
+#run 
+
+(gdb) run or (gdb) run
+
+
+#move
+
+(gdb) continue 
+
+
+
+(gdb) r
+Starting program: /home/sunrise/projects/Linux/trainning/gdb/main 
+
+Program received signal SIGFPE, Arithmetic exception.
+0x00005555555551e3 in mfunction () at main.cpp:8
+8           i= i/b;
+(gdb) bt
+#0  0x00005555555551e3 in mfunction () at main.cpp:8
+#1  0x0000555555555208 in test () at main.cpp:14
+#2  0x0000555555555236 in main () at main.cpp:23
