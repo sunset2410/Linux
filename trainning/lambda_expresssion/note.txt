@@ -1,0 +1,6 @@
+https://www.geeksforgeeks.org/lambda-expression-in-c/
+
+[ capture clause ] (parameters) -> return-type  
+{   
+   definition of method   
+} 
