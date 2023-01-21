@@ -4,6 +4,8 @@
 using namespace std;
 // add 1
 // add 2
+// a b c d e ;
+// 5 4 3 2 1 ;
 // 1 2 3 4 5 6 7 8 9
 // sort vector using lambda
 // find_if pt dau tien > 5
