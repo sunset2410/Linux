@@ -2,7 +2,7 @@
 #include<vector>
 #include<algorithm>
 using namespace std;
-// 1 3 5 7 9
+// 1 2 3 4 5 6 7 8 9
 // sort vector using lambda
 // find_if pt dau tien > 5
 // count_if dem so pt  > 6
