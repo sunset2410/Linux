@@ -1,0 +1,1 @@
+g++ concurency.cpp -o out -lpthread
