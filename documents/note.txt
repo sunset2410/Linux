@@ -1,0 +1,16 @@
+
+
+mosquitto_pub -h test.mosquitto.org -p 1883 -d --protocol-version 5 --insecure -t 'test/t10' -m 'Testing MQTT TLS'
+
+
+
+
+
+
+
+
+mosquitto_sub -h test.mosquitto.org -p 8884 -t '$SYS/#' -v --cafile mosquitto.org.crt --cert client.crt --key client.key
+
+
+
+mosquitto_pub -h test.mosquitto.org -p 8884 -t 'test/t10' -m 'hello' -v --cafile mosquitto.org.crt --cert client.crt --key client.key
